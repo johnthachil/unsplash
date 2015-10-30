@@ -1,0 +1,24 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	background: #191A1B;
+}
+
+a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}

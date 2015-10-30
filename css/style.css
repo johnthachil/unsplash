@@ -1,0 +1,209 @@
+.grid a img:hover{
+  -webkit-box-shadow: 0px 0px 14px -5px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 14px -5px rgba(255,255,255,1);
+  box-shadow: 0px 0px 14px -5px rgba(255,255,255,1);
+  transition: all 0.5s ease;
+
+}
+.grid a img{
+  border-radius: 4px;
+  transition: all 0.5s ease;
+
+}
+
+.searchbar {
+  height: 65px;
+  background-color: #1E2023;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 23px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 23px -13px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 23px -13px rgba(0,0,0,0.75);
+  position:fixed;
+  z-index: 9999;
+  opacity: 0.99;
+}
+
+#finsearch{
+  margin-top: 15px;
+  margin-left: 100px;
+  width: 30%;
+  height: 35px;
+  border-radius: 15px;
+  background: none;
+  border-style: none;
+  border: 1px solid #62676C;
+  color: white;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.1em;
+  font-weight: 100;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #finsearch {
+        width: 83%;
+        margin-left: 50px;
+
+    }
+
+}
+input[type="text"]:focus{
+  border: 2px solid white;
+  outline: none;
+}
+#sicon{
+  position:absolute;
+  text-indent: 110px;
+  padding-top: 24px;
+  color: grey;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #sicon{
+      text-indent:60px;
+      padding-top: 25px;
+    }
+
+
+}
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+
+.moreclick{
+  margin: 10px auto;
+  display: block;
+}
+
+.catgories{
+  height: 65px;
+  background-color: #595AD3;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 23px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 23px -13px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 23px -13px rgba(0,0,0,0.75);
+  position:fixed;
+  z-index: 8000;
+  opacity: 0.99;
+  top: 60px;
+  line-height: 2px;
+
+}
+#toggleicon{
+  display:inline;
+  position: absolute;
+  top: 13px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+
+
+
+}
+.catbutton{
+
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+  border: 1px solid white;
+  padding: 15px 15px;
+  border-radius: 15px;
+
+}
+.catbutton:hover{
+  cursor:pointer;
+  opacity: 0.8;
+}
+.catbutton:first-child{
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    #toggleicon{
+      display:inline;
+      position: absolute;
+      top: 13px;
+      transition: all 0.5s ease;
+      margin-left: -15px;
+
+
+
+    }
+    .catbutton{
+
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+      border: 1px solid white;
+      border-radius: 15px;
+
+    }
+    .catbutton:hover{
+      cursor:pointer;
+      opacity: 0.8;
+    }
+    .catbutton:first-child{
+      margin-left: 10px;
+    }
+    .catgories{
+      height: 130px;
+    }
+
+
+}
